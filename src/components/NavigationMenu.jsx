@@ -9,7 +9,7 @@ const navElems = [
 
 const NavigationMenu = () => {
 	return (
-		<nav>
+		<nav style={{ marginTop: "auto", marginBottom: "auto" }}>
 			<ul>
 				{navElems.map((elem, key) => {
 					return <li key={key.toString()}>{elem}</li>;
